@@ -2,7 +2,7 @@ To challenge myself and work on the lessons learned, I will create a challenge f
 
 Chores:
 
->>> First challenge: a personal learning profile page (portfolio). Using HTML and CSS, create a landpage. <<<
+>>> First challenge: a personal learning profile page (portfolio). Using HTML and CSS, create a landpage 
 
 - Second challenge: JAVASCRIPT, help a neighborhood gym to modernize, creating functions that speed up its operation.
 
