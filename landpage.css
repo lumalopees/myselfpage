@@ -29,7 +29,45 @@ header a {
   margin-right: 10px;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 a {
   text-decoration: none;
-  color: rgb(194, 209, 209);
+  color: rgb(249, 252, 252);
+}
+
+a:hover {
+  color: #c2a5d8;
+}
+
+.intro {
+  background-color: rgba(247, 247, 247, 0.993);
+  height: 100vh;
+  color: rgb(15, 0, 0);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro p {
+  padding: 20px;
+  background-color: rgba(247, 247, 247, 0.993);
+  border-radius: 8px;
+  text-decoration: none;
+  color: #191c03;
+  width: 500px;
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.intro h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
