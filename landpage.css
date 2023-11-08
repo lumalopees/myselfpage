@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+  position: fixed;
+  background-color: purple;
+  width: 100%;
+}
+
+header img {
+  width: 100px;
+}
+
+header a {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(194, 209, 209);
+}
