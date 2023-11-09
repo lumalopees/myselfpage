@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="landpage.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
   <title>Student Profile</title>
 </head>
 <body>
@@ -40,19 +41,21 @@
 
 <section class="story" id="about">
   <h3>A little of this, a little of that</h3>
-  <p>
-    I never thought that making fanfic covers in Photoshop and modifying my Tumblr theme at 13 would bring me anything other than fun, but here we are!
+  <p class="left-message">
+    I never thought that making fanfic covers in Photoshop and modifying my Tumblr theme at 13 would bring me anything other than fun, but here we are! 
   </p>
-    <br>
-    <p>
+  <br>
+  
+  <p class="right-message">
       I found myself here, in the middle of this alphabet soup and bright screens. It's intriguing, fun, frustrating and wonderful in equal measures - and I love it. I finally discovered the answer to that question: "but what do you want to do (in life)?".
-    </p>
-    <br>
-    <p>
+  </p>
+  <br>
+  
+  <p class="left-message">
       I want to discover how far I can go, how far technology can take me. It seems to have infinite paths and a real possibility for anyone to create their own. The freedom, adventure and mystery almost make me think I'm in the middle of the books I grew up reading. Maybe the power of friendship will also save me in the end, huh?
-    </p>
+  </p>
 
-  <p>But it's better to take some skills too.</p>
+  <p class="right-message">But it's better to take some skills too.</p>
   
   <ul class="skills">
     <div>
@@ -96,5 +99,16 @@
   </ul>
 </section>
 
+<section class="message-board">
+  <h2>Quadro de Mensagens</h2>
+  <input type="text" id="message-input" placeholder="Be nice :D">
+  <button id="send-button">Send</button>
+  <button id="delete-all-button">Clear board</button>
+  <div class="message-list">
+
+  </div>
+</section>
+
+<script></script>
 </body>
 </html>

@@ -134,13 +134,6 @@ ul {
   list-style: none;
 }
 
-.skills {
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-}
-
 .story {
   background-color: rgb(73, 29, 73);
   color: white;
@@ -150,17 +143,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.skills h3, i {
-  color: #ffffff; 
-  font-size: 25px;
-}
-
-.skills li {
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
 }
 
 .story h3 {
@@ -180,8 +162,50 @@ ul {
   font-size: 20px;
 }
 
+.left-message {
+  text-align: left;
+  background-color: #e1e1e1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  margin-right: auto; 
+}
+
+.right-message {
+  text-align: right;
+  background-color: #4fc3f7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  margin-left: auto;
+}
+
+.skills {
+  background-color: rgba(109, 16, 109, 0.13);
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.skills h3, i {
+  color: #ffffff; 
+  font-size: 25px;
+}
+
+.skills li {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+
 .skills div {
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(255, 244, 244, 0.171);
   border-radius: 8px;
   text-decoration: none;
@@ -190,4 +214,9 @@ ul {
   margin-top: 50px;
   font-size: 20px;
   margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.skills div:nth-child(3) li {
+  margin-top: 50px;
 }
