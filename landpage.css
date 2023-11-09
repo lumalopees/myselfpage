@@ -43,7 +43,7 @@ a:hover {
 }
 
 .intro {
-  background-image: url(./images/7ffa5e23ad03a698c6ea372279e5ccb0.jpg);
+  background-image: url(./images/stars.jpg);
   height: 100vh;
   color: rgb(15, 0, 0);
   text-align: center;
@@ -222,7 +222,7 @@ ul {
 }
 
 .message-board {
-  background-image: url(/images/7ffa5e23ad03a698c6ea372279e5ccb0.jpg);
+  background-image: url(/images/stars.jpg);
   color: #030303; 
   display: flex;
   flex-direction: column;
