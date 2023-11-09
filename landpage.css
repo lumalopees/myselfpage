@@ -222,7 +222,7 @@ ul {
 }
 
 .message-board {
-  background-image: url(/images/stars.jpg);
+  background-image: url(./images/stars.jpg);
   color: #030303; 
   display: flex;
   flex-direction: column;
