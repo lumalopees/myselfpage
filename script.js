@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const messageInput = document.getElementById("message-input");
   const sendButton = document.getElementById("send-button");
   const deleteAllButton = document.getElementById("delete-all-button");
+  const menuIcon = document.getElementById('menuIcon');
 
   sendButton.addEventListener("click", () => {
     const messageText = messageInput.value;
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       messageInput.value = "";
       saveMessage(messageText);
     } else {
-      alert("Please enter something valid.).");
+      alert("Please enter something valid.");
     }
   });
 
@@ -28,6 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Denied. You are not allowed to delete all messages.");
     }
   });
+
+  menuIcon.addEventListener('click', toggleMenu);
 
   loadMessages();
 
@@ -49,5 +52,13 @@ document.addEventListener("DOMContentLoaded", function () {
     messageItem.classList.add("message-item");
     messageItem.innerHTML = `<div class="message">${messageText}</div>`;
     messageList.appendChild(messageItem);
+  }
+
+  function toggleMenu() {
+    const navContainer = document.querySelector('.nav-container');
+    const menuIcon = document.querySelector('.menu-icon');
+    
+    navContainer.classList.toggle('show-menu');
+    menuIcon.classList.toggle('open');
   }
 });
